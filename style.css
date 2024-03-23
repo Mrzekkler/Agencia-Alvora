@@ -1,0 +1,123 @@
+/* general */
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    
+
+}
+
+
+body{
+    background-color: #000000;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    
+}
+
+.contato button{
+    padding: 10px 40px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h2.title{
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2.title span{
+    color: #960200;
+}
+
+/* header style */
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #7e7e7e;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.25s;
+    
+
+}
+
+header a:hover{
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 50px;
+}
+
+
+header .contato button:hover{
+    box-shadow: 0px 0px 0px #960200;
+}
+
+/* top style */
+section.top{
+    padding: 40px 4%;
+}
+
+section .top .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+
+.top h1{
+    color: #ffffff;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.top h1 span{
+    color: #960200;
+}
+
+.top p{
+    color: #ffffff;
+    margin: 0px 0px;
+}
+
+/* site information */
+
+section.continue-conosco{
+    padding: 350px 10%;
+}
+
+.interface .site-information{
+    color: #ffffff;
+    padding: 40px 15%;
+}
